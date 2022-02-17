@@ -20,10 +20,9 @@ class MyApp extends StatelessWidget {
             ),
             body: const Center(
                 child: Image(
-              image: NetworkImage(
-                  "https://w7.pngwing.com/pngs/420/698/png-transparent-iphone-pile-of-poo-emoji-iphone-electronics-food-vertebrate-thumbnail.png"),
-              width: 200,
-              height: 200,
+              image: AssetImage("images/diamond.png"),
+              width: 150,
+              height: 150,
             ))));
     // body: const Center(child: Center(child: Text("hello 123")))));
   }
